@@ -82,6 +82,7 @@ const StoreConainer = () => {
 
     if (title === "") {
       InfoProduct();
+      return;
     } else if (isNaN(price as number)) {
       InfoPrice();
       return;
